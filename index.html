@@ -2,98 +2,146 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Mi Página Web</title>
-    <link rel="stylesheet" href="styless.css">
-<head> 
-    <h1 class= "frase" >Bienvenido a mi sitio de tranquilidad</h1>
-    <h2 class="frase1" >mejor atarcer lejos de la ciudad</h2>
-    <h3 class="frase2" >Visitemos el campo - el humo hace daño</h3>
-    <p class="frase3" >Lo mas placido y tranquilo</strong> Pajan tierra de encanto </strong> </p>    
-
-  <body>
-
-    <img src="montalvo.jpeg" alt="Tierra de hermosos atardeceres" width="540px" height="220px">
-
-
-              <video width="350px" height="250px" controls>
-      <source src="Ella Baila Sola.mp4.mp4" type="video/mp4">
-      Tu navegador no soporta mp4
-      </video>
-      
-    </body>
-    
-  
-         <ol>
-         <li>Leche</li>
-         <li>Harina</li>
-         <li>Huevo</li>
-         <li>Azucar</li>
-        </ol>
-      
-
-        <nav>
-        <ul>
-        <li><a href="#">Caña de azucar</a></li>
-        <li><a href="#">Queso salado</a></li>
-        <li><a href="#">Nata</a></li>
-        <li><a href="#">Melcocha</a></li>
-        </ul>
-        </nav>
-
-
-        
-  <title>Ejemplo de Tabla HTML</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-    table {
-      border-collapse: collapse;
-      width: 50%;
-      margin: 0 auto;
-        }
-    th, td {
-      border: 2px solid #333;
-      padding: 10px;
-      text-align: left;
-    }
-    thead {
-      background-color: #587fc9;
-      color: white;
-    }
-  </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criadero Avícola Ecológico y Sostenible</title>
+    <!-- Enlace a Bootstrap 5 CSS desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace a Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Enlace a tus estilos CSS personalizados -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Ejemplo de Tabla </h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Nombre</th>
-        <th>Edad</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Ana</td>
-        <td>28</td>
-        </tr>
-      <tr>
-        <td>Carlos</td>
-        <td>34</td>
-      </tr>
-      <tr>
-        <td>María</td>
-        <td>25</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <div class ="container">
+    <div class ="rom">
+      <div class ="col-md-12"></div>criadero </div>
+      <div class ="col-md-12"></div>pollos </div>
+        <h1 class="text-center my-5">Bienvenido al Criadero Avícola Ecológico y Sostenible</h1>
+        <p class="text-center">Descubre nuestros productos frescos y sostenibles, criados con amor y respeto por el medio ambiente.</p>
+      </div>
+        
+
+
+    <!-- Encabezado y Barra de Navegación -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <!-- Título principal con <h1> -->
+                    <h1>Criadero Ecológico</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sostenibilidad">Sostenibilidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <!-- Sección Principal con Grid de Bootstrap y Cards -->
+        <section id="productos" class="mb-5">
+            <h2 class="text-center mb-4">Nuestros Productos Ecológicos y Sostenibles</h2>
+            <div class="row g-4">
+                <!-- Columna 1: Huevos de Gallinas Felices -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm rounded-lg">
+                        <img src="https://placehold.co/600x400/87CEEB/FFFFFF?text=Huevos+Felices" class="card-img-top img-fluid" alt="Huevos frescos de gallinas de pastoreo.">
+                        <div class="card-body">
+                            <h3 class="card-title">Huevos de Gallinas Felices</h3>
+                            <p class="card-text">Nuestras gallinas disfrutan de amplios pastizales.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Columna 2: Pollo Criado en Libertad -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm rounded-lg">
+                        <img src="https://placehold.co/600x400/90EE90/FFFFFF?text=Pollo+Libre" class="card-img-top img-fluid" alt="Pollo de engorde criado en libertad.">
+                        <div class="card-body">
+                            <h3 class="card-title">Pollo Criado en Libertad</h3>
+                            <p class="card-text">Pollos de engorde criados sin jaulas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Columna 3: Compromiso con la Sostenibilidad -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm rounded-lg">
+                        <img src="https://placehold.co/600x400/FFB6C1/FFFFFF?text=Sostenibilidad" class="card-img-top img-fluid" alt="Granja sostenible con elementos naturales.">
+                        <div class="card-body">
+                            <h3 class="card-title">Compromiso con la Sostenibilidad</h3>
+                            <p class="card-text">Implementamos prácticas agrícolas regenerativas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección con Botón y Contenido Ocultable (Collapse) -->
+        <section id="sostenibilidad" class="text-center my-5">
+            <h2 class="mb-4">Nuestras Prácticas Sostenibles</h2>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSostenibilidad" aria-expanded="false" aria-controls="collapseSostenibilidad">
+                Ver más sobre Sostenibilidad
+            </button>
+            <div class="collapse mt-3" id="collapseSostenibilidad">
+                <div class="card card-body rounded-lg shadow-sm">
+                    <p>En nuestro criadero, la sostenibilidad es el pilar de todo lo que hacemos. Desde la optimización del uso del agua hasta la implementación de un sistema de economía circular donde nuestros residuos se transforman en valiosos recursos. Utilizamos la gallinaza para crear compost orgánico de alta calidad que nutre nuestros pastos, y exploramos soluciones como los biodigestores para generar energía limpia. Cada decisión se toma pensando en el equilibrio del ecosistema y el bienestar de nuestras aves y del planeta.</p>
+                    <p>Además, estamos investigando la implementación de tecnologías de trazabilidad con blockchain para que nuestros clientes puedan conocer todo el ciclo de vida de los productos, desde la granja hasta su mesa, garantizando una transparencia total.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario Responsivo -->
+        <section id="contacto" class="my-5 p-4 rounded-lg shadow-lg">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="tu.email@ejemplo.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comentarios" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="comentarios" rows="4" placeholder="Escribe tus comentarios o preguntas aquí..."></textarea>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar Mensaje</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="footer text-center bg-light py-4 mt-5 rounded-lg">
+        <div class="container">
+            <p>&copy; 2024 Criadero Avícola Ecológico y Sostenible. Todos los derechos reservados.</p>
+            <p>
+                <a href="#" class="text-decoration-none text-dark mx-2">Política de Privacidad</a> |
+                <a href="#" class="text-decoration-none text-dark mx-2">Términos de Servicio</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Enlace a Bootstrap 5 JS Bundle con Popper desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-    
-    
-
-
